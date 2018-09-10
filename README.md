@@ -4,4 +4,4 @@ This is just an effort to understand Table View and Collection View with styling
 
 #### Contact
 
-[rehan_manzoor@outlook.com](mailto://rehan_manzoor@outlook.com)
+[rehan_manzoor@outlook.com](mailto:rehan_manzoor@outlook.com)
