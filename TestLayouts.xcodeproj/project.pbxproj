@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC8EEBE2214ADDF000D71755 /* GithubTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8EEBE1214ADDF000D71755 /* GithubTableViewController.swift */; };
+		FC8EEBE4214ADFF500D71755 /* GithubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8EEBE3214ADFF500D71755 /* GithubTableViewCell.swift */; };
+		FC8EEBE6214AE32E00D71755 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = FC8EEBE5214AE32E00D71755 /* users.json */; };
+		FC8EEBE8214AE50800D71755 /* GithubDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8EEBE7214AE50800D71755 /* GithubDataManager.swift */; };
 		FCF2577221441F3100357979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF2577121441F3100357979 /* AppDelegate.swift */; };
 		FCF2577421441F3100357979 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF2577321441F3100357979 /* ViewController.swift */; };
 		FCF2577721441F3100357979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF2577521441F3100357979 /* Main.storyboard */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC8EEBE1214ADDF000D71755 /* GithubTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubTableViewController.swift; sourceTree = "<group>"; };
+		FC8EEBE3214ADFF500D71755 /* GithubTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubTableViewCell.swift; sourceTree = "<group>"; };
+		FC8EEBE5214AE32E00D71755 /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		FC8EEBE7214AE50800D71755 /* GithubDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubDataManager.swift; sourceTree = "<group>"; };
 		FCF2576E21441F3100357979 /* TestLayouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLayouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF2577121441F3100357979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCF2577321441F3100357979 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +86,10 @@
 				FCF2578921464E4900357979 /* DataManager.swift */,
 				FCF2578B214680D500357979 /* CollectionViewController.swift */,
 				FCF2578D2146813500357979 /* CollectionViewCell.swift */,
+				FC8EEBE1214ADDF000D71755 /* GithubTableViewController.swift */,
+				FC8EEBE3214ADFF500D71755 /* GithubTableViewCell.swift */,
+				FC8EEBE5214AE32E00D71755 /* users.json */,
+				FC8EEBE7214AE50800D71755 /* GithubDataManager.swift */,
 			);
 			path = TestLayouts;
 			sourceTree = "<group>";
@@ -140,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8EEBE6214AE32E00D71755 /* users.json in Resources */,
 				FCF2577C21441F3100357979 /* LaunchScreen.storyboard in Resources */,
 				FCF2577921441F3100357979 /* Assets.xcassets in Resources */,
 				FCF2577721441F3100357979 /* Main.storyboard in Resources */,
@@ -157,10 +170,13 @@
 				FCF2578A21464E4900357979 /* DataManager.swift in Sources */,
 				FCF2578E2146813500357979 /* CollectionViewCell.swift in Sources */,
 				FCF2577421441F3100357979 /* ViewController.swift in Sources */,
+				FC8EEBE4214ADFF500D71755 /* GithubTableViewCell.swift in Sources */,
 				FCF2577221441F3100357979 /* AppDelegate.swift in Sources */,
 				FCF2578C214680D500357979 /* CollectionViewController.swift in Sources */,
+				FC8EEBE2214ADDF000D71755 /* GithubTableViewController.swift in Sources */,
 				FCF2578621464B5400357979 /* TableTableCell.swift in Sources */,
 				FCF2578421441F5D00357979 /* MaterialCardView.swift in Sources */,
+				FC8EEBE8214AE50800D71755 /* GithubDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
